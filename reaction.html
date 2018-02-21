@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+
+        <link rel="stylesheet" type="text/css" href="reaction.css">
+
+
+    </head>
+
+    <body>
+
+      <a href="">Back to tuomaskoivisto.net</a>
+      <div id="container">
+        <h1>Test your Reactions!</h1>
+
+        <p>Click on the boxes and circles as quickly as you can!</p>
+
+        <p>Press Play to get the right atmosphere.</p>
+
+        <div id="audio">
+          <audio controls loop>
+            <source src="sound/mgs1-encounter.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+      </div>
+
+        <strong>Your time: <span id="timeTaken"></span></strong>
+
+        <div id="stars">
+
+            <img src="star.png" class="star" id="one" alt="one star">
+            <img src="star.png" class="star" id="two" alt="two stars">
+            <img src="star.png" class="star" id="three" alt="three stars">
+            <img src="star.png" class="star" id="four" alt="four stars">
+            <img src="star.png" class="star" id="five" alt="five starts">
+
+
+        </div>
+      </div>
+
+        <div id="div" onclick="onClick()"></div>
+
+
+        <script src="reaction.js"></script>
+
+    </body>
+
+
+
+</html>

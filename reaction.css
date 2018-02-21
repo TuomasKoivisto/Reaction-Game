@@ -1,0 +1,19 @@
+#div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    display: block;
+    margin-top: 30px;
+}
+
+.star {
+   position: relative;
+    float: left;
+    width: 20px;
+    margin: 4px;
+}
+
+#audio {
+  margin: 20px 0;
+}
